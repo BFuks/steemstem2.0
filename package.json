@@ -7,6 +7,7 @@
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
     "browserify": "^16.5.0",
+    "buffer": "^5.4.2",
     "diff": "^4.0.1",
     "meteor-node-stubs": "^0.3.2",
     "meteor-stubs": "0.0.6",
