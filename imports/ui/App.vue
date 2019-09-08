@@ -41,7 +41,7 @@
       console.log('  --> Global properties loaded from', api, 'in', (ReceiveDate - SendDate), 'ms');
 
       // Saving global properties
-      localStorage.setItem('SteemProperties', JSON.stringify(result));
+      window.localStorage.setItem('SteemProperties', JSON.stringify(result));
     });
   }
 
@@ -54,7 +54,7 @@
     methods:
     {
       count()       { this.counter++; },
-      steem_props() { return localStorage.SteemProperties; }
+      steem_props() { return window.localStorage.SteemProperties; }
     }
   };
 </script>
