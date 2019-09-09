@@ -11,7 +11,6 @@
 </template>
 
 <script>
-  global.Buffer = global.Buffer || require("buffer").Buffer;
   import steem from 'steem';
 
   // Main function to connect to the Steem API
