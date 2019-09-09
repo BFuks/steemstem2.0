@@ -6,15 +6,15 @@
   },
   "dependencies": {
     "@babel/runtime": "7.0.0-beta.55",
-    "browserify": "^16.5.0",
     "buffer": "^5.4.2",
+    "bufferutil": "^4.0.1",
     "diff": "^4.0.1",
     "meteor-node-stubs": "^0.3.3",
     "meteor-stubs": "0.0.6",
     "sockjs": "^0.3.19",
     "steem": "^0.7.7",
     "utf-8-validate": "^5.0.2",
-    "vue": "^2.5.22",
+    "vue": "^2.6.10",
     "vue-meteor-tracker": "^2.0.0-beta.5",
     "vue-router": "^2.0.0"
   },
